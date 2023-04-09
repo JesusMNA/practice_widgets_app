@@ -22,7 +22,7 @@ const appMenuItems = <MenuItem>[
     icon: Icons.smart_button_outlined,
   ),
   MenuItem(
-    title: 'Tarjetas',
+    title: 'Cards',
     subTitle: 'Un contenedor estilizado',
     link: '/cards',
     icon: Icons.credit_card,
@@ -50,5 +50,11 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Controls in flutter',
     link: '/ui_controls',
     icon: Icons.car_rental_outlined,
+  ),
+  MenuItem(
+    title: 'App Introduction',
+    subTitle: 'Small introductory tutorial',
+    link: '/app_tutorial',
+    icon: Icons.accessibility_rounded,
   ),
 ];
